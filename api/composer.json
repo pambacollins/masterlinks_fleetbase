@@ -98,7 +98,7 @@
     "repositories": [
         {
             "type": "path",
-            "url": "../packages/masterlinks-billing"
+            "url": "/fleetbase/packages/masterlinks-billing"
         }
     ]
 }

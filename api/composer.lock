@@ -6659,7 +6659,7 @@
             "version": "0.0.1",
             "dist": {
                 "type": "path",
-                "url": "../packages/masterlinks-billing",
+                "url": "/fleetbase/packages/masterlinks-billing",
                 "reference": "a92bcb82120280d87d8cacc254e4f8a600a07e53"
             },
             "require": {

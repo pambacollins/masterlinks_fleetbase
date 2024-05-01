@@ -57,7 +57,7 @@
         "postcss-at-rules-variables": "^0.3.0",
         "postcss-custom-properties": "^12.1.9",
         "postcss-nth-list": "^1.0.2",
-        "@masterlinks/billing-engine": "link:../packages/masterlinks-billing"
+        "@masterlinks/billing-engine": "link:/fleetbase/packages/masterlinks-billing"
     },
     "devDependencies": {
         "@fleetbase/intl-lint": "^0.0.1",
