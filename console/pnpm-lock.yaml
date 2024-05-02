@@ -26,8 +26,8 @@ dependencies:
     specifier: ^0.1.14
     version: 0.1.14
   '@fleetbase/fleetops-engine':
-    specifier: ^0.4.25
-    version: 0.4.25(@ember/test-helpers@3.2.0)(@glimmer/component@1.1.2)(@glimmer/tracking@1.1.2)(ember-engines@0.8.23)(ember-source@5.4.0)(postcss@8.4.21)(rollup@4.14.2)(tracked-built-ins@3.3.0)(webpack@5.89.0)
+    specifier: ^0.4.27
+    version: 0.4.27(@ember/test-helpers@3.2.0)(@glimmer/component@1.1.2)(@glimmer/tracking@1.1.2)(ember-engines@0.8.23)(ember-source@5.4.0)(postcss@8.4.21)(rollup@4.14.2)(tracked-built-ins@3.3.0)(webpack@5.89.0)
   '@fleetbase/iam-engine':
     specifier: ^0.0.10
     version: 0.0.10(@ember/test-helpers@3.2.0)(@glimmer/component@1.1.2)(@glimmer/tracking@1.1.2)(ember-engines@0.8.23)(ember-source@5.4.0)(postcss@8.4.21)(rollup@4.14.2)(tracked-built-ins@3.3.0)(webpack@5.89.0)
@@ -40,9 +40,6 @@ dependencies:
   '@fortawesome/ember-fontawesome':
     specifier: ^0.4.1
     version: 0.4.1(rollup@4.14.2)
-  '@masterlinks/billing-engine':
-    specifier: link:../packages/masterlinks-billing
-    version: link:../packages/masterlinks-billing
   ember-changeset:
     specifier: ^4.1.2
     version: 4.1.2(ember-data@4.12.5)(webpack@5.89.0)
@@ -3893,8 +3890,8 @@ packages:
       - supports-color
     dev: false
 
-  /@fleetbase/fleetops-engine@0.4.25(@ember/test-helpers@3.2.0)(@glimmer/component@1.1.2)(@glimmer/tracking@1.1.2)(ember-engines@0.8.23)(ember-source@5.4.0)(postcss@8.4.21)(rollup@4.14.2)(tracked-built-ins@3.3.0)(webpack@5.89.0):
-    resolution: {integrity: sha512-ClbE86yr35/pnO3lyi4fNYd58mR8TbnB15FQRovDB5UKx8JLtJsw5t/KqMuqMxFABDDDI5dDzhJEY4fvWrMk8w==}
+  /@fleetbase/fleetops-engine@0.4.27(@ember/test-helpers@3.2.0)(@glimmer/component@1.1.2)(@glimmer/tracking@1.1.2)(ember-engines@0.8.23)(ember-source@5.4.0)(postcss@8.4.21)(rollup@4.14.2)(tracked-built-ins@3.3.0)(webpack@5.89.0):
+    resolution: {integrity: sha512-flc8mK7N8qUrlIXYIlIWFmbLGNeSIRWtPOviWHIGuCJbYpY0yQBONUcZlaIqyF9YQpMxtI1E/beHRkn2Dd26sQ==}
     engines: {node: '>= 18'}
     peerDependencies:
       ember-engines: ^0.9.0
