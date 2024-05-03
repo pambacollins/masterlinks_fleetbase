@@ -34,3 +34,5 @@ packages/solid
 solid
 verdaccio
 Dockerfile.local
+.env.development
+.env.production
