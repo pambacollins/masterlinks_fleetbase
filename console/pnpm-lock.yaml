@@ -40,6 +40,9 @@ dependencies:
   '@fortawesome/ember-fontawesome':
     specifier: ^0.4.1
     version: 0.4.1(rollup@4.14.2)
+  '@masterlinks/billing-engine':
+    specifier: link:/fleetbase/packages/masterlinks-billing
+    version: link:../../../../../fleetbase/packages/masterlinks-billing
   ember-changeset:
     specifier: ^4.1.2
     version: 4.1.2(ember-data@4.12.5)(webpack@5.89.0)

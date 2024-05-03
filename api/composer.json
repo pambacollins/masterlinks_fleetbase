@@ -21,7 +21,8 @@
         "phpoffice/phpspreadsheet": "^1.28",
         "predis/predis": "^2.1",
         "psr/http-factory-implementation": "*",
-        "s-ichikawa/laravel-sendgrid-driver": "^4.0"
+        "s-ichikawa/laravel-sendgrid-driver": "^4.0",
+        "masterlinks/billing-engine": "^0.0.1"
     },
     "require-dev": {
         "spatie/laravel-ignition": "^2.0",
@@ -36,6 +37,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/fleetbase/laravel-model-caching"
+        },
+        {
+            "type": "path",
+            "url": "/fleetbase/packages/masterlinks-billing"
         }
     ],
     "autoload": {

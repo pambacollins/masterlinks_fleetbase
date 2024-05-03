@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f2971a70f3e9e350eb19b3c6fd1a3388",
+    "content-hash": "a40f00b0fc8002bd3a2c40c2e585b634",
     "packages": [
         {
             "name": "aloha/twilio",
@@ -6867,6 +6867,91 @@
                 "source": "https://github.com/MarkBaker/PHPMatrix/tree/3.0.1"
             },
             "time": "2022-12-02T22:17:43+00:00"
+        },
+        {
+            "name": "masterlinks/billing-engine",
+            "version": "0.0.1",
+            "dist": {
+                "type": "path",
+                "url": "/fleetbase/packages/masterlinks-billing",
+                "reference": "120fa25a58ae81d8ed2115d0afced35308317f77"
+            },
+            "require": {
+                "fleetbase/core-api": "^1.4.17",
+                "fleetbase/fleetops-api": "^0.4.25",
+                "php": "^8.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.34.1",
+                "nunomaduro/collision": "^5.11.0|^6.4.0",
+                "pestphp/pest": "^1.22.6",
+                "phpstan/phpstan": "^1.10.38",
+                "symfony/var-dumper": "^5.4.29"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Masterlinks\\Billing\\Providers\\BillingServiceProvider"
+                    ]
+                },
+                "fleetbase": {
+                    "sandbox-migrations": false
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Masterlinks\\Billing\\": "server/src/",
+                    "Masterlinks\\Billing\\Seeds\\": "server/seeds/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Masterlinks\\Billing\\Tests\\": "server/tests/"
+                }
+            },
+            "scripts": {
+                "lint": [
+                    "php-cs-fixer fix -v"
+                ],
+                "test:lint": [
+                    "php-cs-fixer fix -v --dry-run"
+                ],
+                "test:types": [
+                    "phpstan analyse --ansi --memory-limit=0"
+                ],
+                "test:unit": [
+                    "pest --colors=always"
+                ],
+                "test": [
+                    "@test:lint",
+                    "@test:types",
+                    "@test:unit"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pamba Collins",
+                    "email": "collinspamba@outlook.com"
+                }
+            ],
+            "description": "Custom fleetbase billing and invoicing extension developed for Masterlinks Parcels",
+            "keywords": [
+                "ecommerce",
+                "fleetbase",
+                "fleetbase-extension",
+                "inventory",
+                "inventory management",
+                "inventory management api",
+                "inventory system",
+                "stock management"
+            ],
+            "transport-options": {
+                "relative": false
+            }
         },
         {
             "name": "masterminds/html5",
